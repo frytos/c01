@@ -6,7 +6,7 @@
 /*   By: argrouss <argrouss@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/13 23:52:13 by argrouss          #+#    #+#             */
-/*   Updated: 2024/02/14 00:11:36 by argrouss         ###   ########.fr       */
+/*   Updated: 2024/02/14 00:14:24 by argrouss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ void	ft_putstr(char *str)
 		ft_putchar(str[index]);
 		index++;
 	}
+	printf("char of str = %c\n", str);
 }
 
 void	ft_putchar(char c)
