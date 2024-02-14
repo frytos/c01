@@ -19,15 +19,14 @@ void	ft_ft(int *nbr)
 	*nbr = 42;
 }
 
-int	main(void)
-{
-	int n;
-	int *ptr_to_int;
-	
-	n = 99;
-	ptr_to_int = &n;
-	printf("before ft_ft\nn = %d\n", n);
-	ft_ft(ptr_to_int);
-	printf("after ft_ft\nn = %d\n", n);
-	return (0);
-}
+// int	main(void)
+// {
+// 	int n;
+// 	int *ptr_to_int;
+// 	n = 99;
+// 	ptr_to_int = &n;
+// 	printf("before ft_ft\nn = %d\n", n);
+// 	ft_ft(ptr_to_int);
+// 	printf("after ft_ft\nn = %d\n", n);
+// 	return (0);
+// }

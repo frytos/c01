@@ -12,9 +12,9 @@
 
 #include <stdio.h>
 
-void ft_rev_int_tab(int *tab, int size);
+void	ft_rev_int_tab(int *tab, int size);
 
-void ft_rev_int_tab(int *tab, int size)
+void	ft_rev_int_tab(int *tab, int size)
 {
 	int	index;
 	int	buffer;
@@ -29,24 +29,22 @@ void ft_rev_int_tab(int *tab, int size)
 	}
 }
 
+// int	main(void)
+// {
+// 	int	index = 0;
 
-
-int	main(void)
-{
-	int	index = 0;
-
-	int myArray[] = {1, 3, 1, 2, 8};
-	while (index < 5)
-	{
-		printf("Before : myArray[%d] = %d\n", index, myArray[index]);
-		index++;
-	}
-	ft_rev_int_tab(myArray, 5);
-	index = 0;
-	while (index < 5)
-	{
-		printf("After : myArray[%d] = %d\n", index, myArray[index]);
-		index++;
-	}
-	return (0);
-}
+// 	int myArray[] = {1, 3, 1, 2, 8};
+// 	while (index < 5)
+// 	{
+// 		printf("Before : myArray[%d] = %d\n", index, myArray[index]);
+// 		index++;
+// 	}
+// 	ft_rev_int_tab(myArray, 5);
+// 	index = 0;
+// 	while (index < 5)
+// 	{
+// 		printf("After : myArray[%d] = %d\n", index, myArray[index]);
+// 		index++;
+// 	}
+// 	return (0);
+// }

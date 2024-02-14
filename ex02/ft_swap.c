@@ -12,9 +12,9 @@
 
 #include <stdio.h>
 
-void ft_swap(int *a, int *b);
+void	ft_swap(int *a, int *b);
 
-void ft_swap(int *a, int *b)
+void	ft_swap(int *a, int *b)
 {
 	int	buffer;
 
@@ -23,15 +23,15 @@ void ft_swap(int *a, int *b)
 	*b = buffer;
 }
 
-int	main(void)
-{
-	int a = 42;
-	int b = 2019;
-	int *ptr_to_a;
-	int *ptr_to_b;
-	ptr_to_a = &a;
-	ptr_to_b = &b;
-	printf("Before swap :\na =\t%d\nb =\t%d\n", a, b);
-	ft_swap(ptr_to_a, ptr_to_b);
-	printf("After swap :\na =\t%d\nb =\t%d\n", a, b);
-}
+// int	main(void)
+// {
+// 	int a = 42;
+// 	int b = 2019;
+// 	int *ptr_to_a;
+// 	int *ptr_to_b;
+// 	ptr_to_a = &a;
+// 	ptr_to_b = &b;
+// 	printf("Before swap :\na =\t%d\nb =\t%d\n", a, b);
+// 	ft_swap(ptr_to_a, ptr_to_b);
+// 	printf("After swap :\na =\t%d\nb =\t%d\n", a, b);
+// }

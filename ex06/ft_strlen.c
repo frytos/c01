@@ -12,9 +12,9 @@
 
 #include <stdio.h>
 
-int ft_strlen(char *str);
+int	ft_strlen(char *str);
 
-int ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
 	int	len;
 
@@ -24,10 +24,11 @@ int ft_strlen(char *str)
 		len++;
 	}
 	return (len);
-}	
-int	main(void)
-{
-	char	myString[] = "Fryt";
-	printf("Length of %s = %d", myString, ft_strlen(myString));
-	return (0);
 }
+
+// int	main(void)
+// {
+// 	char	myString[] = "Fryt";
+// 	printf("Length of %s = %d", myString, ft_strlen(myString));
+// 	return (0);
+// }

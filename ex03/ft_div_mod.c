@@ -20,21 +20,21 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 	*mod = a % b;
 }
 
-int	main(void)
-{
-	int a = 10;
-	int b = 3;
-	int div = -42;
-	int mod = -24;
-	int *ptr_div = &div;
-	int *ptr_mod = &mod;
-	printf("a = %d, b = %d, div = %d, mod = %d\n", a, b, div, mod);
-	ft_div_mod(a, b, ptr_div, ptr_mod);
-	printf("a = %d, b = %d, div = %d, mod = %d\n", a, b, div, mod);
-	a = 42; b = 12;
-	ft_div_mod(a, b, ptr_div, ptr_mod);
-	printf("a = %d, b = %d, div = %d, mod = %d\n", a, b, div, mod);
-	a = 27; b = 8;
-	ft_div_mod(a, b, ptr_div, ptr_mod);
-	printf("a = %d, b = %d, div = %d, mod = %d\n", a, b, div, mod);
-}
+// int	main(void)
+// {
+// 	int a = 10;
+// 	int b = 3;
+// 	int div = -42;
+// 	int mod = -24;
+// 	int *ptr_div = &div;
+// 	int *ptr_mod = &mod;
+// 	printf("a = %d, b = %d, div = %d, mod = %d\n", a, b, div, mod);
+// 	ft_div_mod(a, b, ptr_div, ptr_mod);
+// 	printf("a = %d, b = %d, div = %d, mod = %d\n", a, b, div, mod);
+// 	a = 42; b = 12;
+// 	ft_div_mod(a, b, ptr_div, ptr_mod);
+// 	printf("a = %d, b = %d, div = %d, mod = %d\n", a, b, div, mod);
+// 	a = 27; b = 8;
+// 	ft_div_mod(a, b, ptr_div, ptr_mod);
+// 	printf("a = %d, b = %d, div = %d, mod = %d\n", a, b, div, mod);
+// }
