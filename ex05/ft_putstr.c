@@ -26,7 +26,6 @@ void	ft_putstr(char *str)
 		ft_putchar(str[index]);
 		index++;
 	}
-	printf("char of str = %c\n", str);
 }
 
 void	ft_putchar(char c)
