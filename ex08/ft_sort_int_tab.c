@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+// #include <stdio.h>
 
 void	ft_sort_int_tab(int *tab, int size);
 void	ft_swap(int *a, int *b);
